@@ -33,7 +33,7 @@
   width: 400px;
   animation-name: zoom;
   animation-duration: 1s;
-  animation-delay:3s;
+  animation-delay: 2s;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
 }
@@ -42,7 +42,7 @@
   width: 120px;
 }
 .intro {
-  padding:20px 0;
+  padding: 20px 0;
   text-align: center;
   justify-content: center;
 }
@@ -50,9 +50,9 @@ span {
   font-size: x-large;
   font-weight: 700;
 }
-span:hover{
-  color:#03DAC6;
-  border-bottom: 3px solid #E76F51;
+span:hover {
+  color: #03dac6;
+  border-bottom: 3px solid #e76f51;
 }
 .textdes {
   text-align: center;
@@ -61,8 +61,8 @@ span:hover{
   font-style: medium;
   font-weight: 900;
 }
-.textdes:hover{
-  color: #03DAC6;
+.textdes:hover {
+  color: #03dac6;
 }
 .card {
   height: 98vh;
@@ -73,7 +73,7 @@ span:hover{
   background-color: #121212;
   animation-name: cardshadow;
   animation-duration: 2s;
-  animation-delay:3s;
+  animation-delay: 2s;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
 }
@@ -90,7 +90,7 @@ span:hover{
   color: #d1d1d1;
   animation-name: visible;
   animation-duration: 2s;
-  animation-delay:3s;
+  animation-delay: 2s;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
 }
@@ -107,7 +107,7 @@ span:hover{
   color: #d1d1d1;
   animation-name: visible;
   animation-duration: 2s;
-  animation-delay:3s;
+  animation-delay: 2s;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
 }
@@ -145,10 +145,11 @@ span:hover{
   font-weight: 600;
   text-align: center;
 }
-a,a:hover{
+a,
+a:hover {
   color: #d1d1d1;
 }
-.skillset{
+.skillset {
   padding: 0 35px;
 }
 .skills h6 {
@@ -157,181 +158,275 @@ a,a:hover{
   font-size: 13px;
   font-weight: 600;
 }
-.figma #filler-space{
+.figma #filler-space {
   height: 20px;
   width: 300px;
-  background-color:#1E1E1E;
+  background-color: #1e1e1e;
   border-radius: 10px;
 }
-.figma #filler{
+.figma #filler {
   height: 20px;
   width: 280px;
-  background-color:#03DAC6;
+  background-color: #03dac6;
   border-radius: 10px;
   animation: figmapr 1.5s ease-in-out;
-  animation-fill-mode:both; 
-  animation-delay: 3s;
+  animation-fill-mode: both;
+  animation-delay: 2s;
 }
 
-.xd #filler-space{
+.xd #filler-space {
   height: 20px;
   width: 300px;
-  background-color:#1E1E1E;
+  background-color: #1e1e1e;
   border-radius: 10px;
 }
-.xd #filler{
+.xd #filler {
   height: 20px;
   width: 190px;
-  background-color:#03DAC6;
+  background-color: #03dac6;
   border-radius: 10px;
   animation: xdpr 1.5s ease-in-out;
-  animation-fill-mode:both; 
-  animation-delay: 3s;
+  animation-fill-mode: both;
+  animation-delay: 2s;
 }
 
-.ps #filler-space{
+.ps #filler-space {
   height: 20px;
   width: 300px;
-  background-color:#1E1E1E;
+  background-color: #1e1e1e;
   border-radius: 10px;
 }
-.ps #filler{
+.ps #filler {
   height: 20px;
   width: 180px;
-  background-color:#03DAC6;
+  background-color: #03dac6;
   border-radius: 10px;
-   animation: pspr 1.5s ease-in-out;
-  animation-fill-mode:both; 
-  animation-delay: 3s;
+  animation: pspr 1.5s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 2s;
 }
 
-.htmlcss #filler-space{
+.htmlcss #filler-space {
   height: 20px;
   width: 300px;
-  background-color:#1E1E1E;
+  background-color: #1e1e1e;
   border-radius: 10px;
 }
-.htmlcss #filler{
+.htmlcss #filler {
   height: 20px;
   width: 280px;
-  background-color:#03DAC6;
+  background-color: #03dac6;
   border-radius: 10px;
   animation: htmlpr 1.5s ease-in-out;
-  animation-fill-mode:both; 
-  animation-delay: 3s;
+  animation-fill-mode: both;
+  animation-delay: 2s;
 }
 
-.js #filler-space{
+.js #filler-space {
   height: 20px;
   width: 300px;
-  background-color:#1E1E1E;
+  background-color: #1e1e1e;
   border-radius: 10px;
 }
-.js #filler{
+.js #filler {
   height: 20px;
   width: 120px;
-  background-color:#03DAC6;
+  background-color: #03dac6;
   border-radius: 10px;
-   animation: jspr 1.5s ease-in-out;
-  animation-fill-mode:both; 
-  animation-delay: 3s;
+  animation: jspr 1.5s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 2s;
 }
 
-
-.react #filler-space{
+.react #filler-space {
   height: 20px;
   width: 300px;
-  background-color:#1E1E1E;
+  background-color: #1e1e1e;
   border-radius: 10px;
 }
-.react #filler{
+.react #filler {
   height: 20px;
   width: 50px;
-  background-color:#03DAC6;
+  background-color: #03dac6;
   border-radius: 10px;
-   animation: reactpr 1.5s ease-in-out;
-  animation-fill-mode:both; 
-  animation-delay: 3s;
+  animation: reactpr 1.5s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 2s;
 }
- #filler:hover{
-   background-color: #E76F51;
- }
-.contact{
+#filler:hover {
+  background-color: #e76f51;
+}
+.contact {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }
- .socialimg{
-   height: 30px;
-   width: 30px;
-   padding: 5px ;
- }
+.socialimg {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+}
 
- @keyframes cardshadow {
+@keyframes cardshadow {
   from {
     box-shadow: 0 0 0rem #000000;
   }
   to {
-    box-shadow: 0 0 .5rem #000000;
+    box-shadow: 0 0 0.5rem #000000;
   }
- }
+}
 
- @keyframes visible {
+@keyframes visible {
   from {
     opacity: 0%;
   }
   to {
     opacity: 100%;
   }
- }
-  @keyframes zoom {
+}
+@keyframes zoom {
   from {
     transform: scale(1);
   }
   to {
     transform: scale(1.2);
   }
- }
+}
 
 @keyframes figmapr {
-  0% { width: 0; }
-  100% { width: 90%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
 }
 @keyframes xdpr {
-  0% { width: 0; }
-  100% { width: 60%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
 }
 @keyframes pspr {
-  0% { width: 0; }
-  100% { width: 70%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
 }
 @keyframes htmlpr {
-  0% { width: 0; }
-  100% { width: 95%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
 }
 @keyframes jspr {
-  0% { width: 0; }
-  100% { width: 25%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 25%;
+  }
 }
 @keyframes reactpr {
-  0% { width: 0; }
-  100% { width: 15%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 15%;
+  }
 }
 
+@media screen and (max-width: 800px) {
+  .full {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .banner {
+    order: 1;
+  }
+  .skills {
+    order: 2;
+  }
+  .works {
+    order: 3;
+  }
+}
 
+@media screen and (max-width: 400px) {
+  .full {
+    overflow-x: hidden;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .banner {
+    order: 1;
+  }
+  .skills {
+    order: 2;
+  }
+  .skillset {
+    flex-shrink: 2;
+  }
+  .works {
+    order: 3;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 1024px) {
+  .full {
+    overflow-x: hidden;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .banner {
+    order: 1;
+  }
+  .skills {
+    order: 2;
+  }
+  .skillset {
+    flex-shrink: 2;
+  }
+  .works {
+    order: 3;
+  }
+}
